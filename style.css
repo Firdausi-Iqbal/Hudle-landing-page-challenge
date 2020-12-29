@@ -1,0 +1,116 @@
+body {
+  background-color: #674baf;
+  background-image: url("images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* container */
+.container-fluid {
+  padding: 3% 5% 0;
+}
+
+/* navigation section */
+.brand {
+  width: 100%;
+}
+
+.brand-logo {
+  width: 50%;
+}
+
+/* mid-secion */
+.mid-img {
+  width: 100%;
+}
+
+.mid-text {
+  line-height: 1.5;
+  margin: 5% auto 3%;
+  width: 70%;
+}
+
+.register-button {
+  border-style: none;
+  border-radius: 25px;
+  color: #674BAF;
+  font-size: 1rem;
+  margin: 1% 15% 3%;
+}
+
+/* social media section */
+.social-section.container-fluid {
+  text-align: right;
+  margin-right: 25%;
+  width: 95%;
+}
+
+.social-icon {
+  border-radius: 25px;
+  border-style: solid;
+  border-width: medium;
+  height: 30px;
+  margin: auto 0.5%;
+  padding-top: 5px;
+  text-align: center;
+  width: 30px;
+}
+
+/* footer section */
+.attribution {
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+/* credit */
+.credit {
+  color: #e882e8;
+  text-decoration: none;
+}
+
+/* hover state */
+.register-button:hover {
+  background-color: #e882e8;
+  color: #FFF;
+}
+
+.social-icon:hover {
+  color: #e882e8;
+}
+
+.credit:hover{
+  color: #FFF;
+}
+/* media section */
+@media (max-width:990px) {
+  .mid-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .container-fluid {
+    padding: 3% 13% 0;
+  }
+
+  .register-button {
+    text-align: center;
+    height: 14%;
+    margin: 5% 25% 3%;
+    width: 50%;
+  }
+
+  .social-section.container-fluid {
+    text-align: center;
+    width: 100%;
+    margin: 10% auto;
+  }
+
+  .social-icon {
+    margin: auto 3%;
+  }
+}
